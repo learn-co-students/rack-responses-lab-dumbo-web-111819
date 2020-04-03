@@ -1,3 +1,4 @@
+app > application.rb
 class Application
  
     def call(env)
@@ -9,7 +10,7 @@ class Application
         else
             resp.write "Good Afternoon!"
         end
-        
+
         resp.finish
     end
 
